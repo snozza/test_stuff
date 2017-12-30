@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-12-30T12:00:49" hostname="FT-MW4576" time="0.006">
+  <properties/>
+  <testcase name="whenYOutsideBoardThenRuntimeException" classname="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec" time="0.005"/>
+  <testcase name="givenFirstTurnWhenNextPlayerThenX" classname="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec" time="0.0"/>
+  <testcase name="givenLastPlayerWasXWhenNextPlayerThen0" classname="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec" time="0.001"/>
+  <testcase name="whenXOutsideBoardThenRuntimeException" classname="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec" time="0.0"/>
+  <testcase name="whenOccupiedThenRuntimeException" classname="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
