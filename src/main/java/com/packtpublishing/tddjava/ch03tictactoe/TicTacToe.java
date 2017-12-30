@@ -17,18 +17,38 @@ public class TicTacToe {
         setCell(x, y, lastPlayer);
         if (isWin()) {
             return lastPlayer + " is the winner";
+        } else if (isDraw()) {
+            return "Draw";
         }
         return "No winner";
     }
 
+    private boolean isDraw() {
+        for (int i = 0; i < SIZE; i++) {
+            for (int j = 0; j < SIZE; j++) {
+                System.out.println(board[i][j]);
+                if (board[i][j] == '\0') {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
     private boolean isWin() {
         int playerTotal = lastPlayer * SIZE;
+        char diagonal1 = '\0';
+        char diagonal2 = '\0';
         for (int i = 0; i < SIZE; i++) {
             if (board[0][i] + board[1][i] + board[2][i] == playerTotal ||
                     board[i][0] + board[i][1] + board[i][2] == playerTotal) {
                 return true;
             }
-
+            diagonal1 += board[i][i];
+            diagonal2 += board[i][SIZE - i - 1];
+        }
+        if (diagonal1 == playerTotal || diagonal2 == playerTotal) {
+            return true;
         }
         return false;
     }

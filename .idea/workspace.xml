@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74977f09-7ecc-4426-9b5e-4320e57b426f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/resourceHashesCache.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec.html" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.packtpublishing.tddjava.ch03tictactoe.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.packtpublishing.tddjava.ch03tictactoe.html" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec.xml" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/packtpublishing/tddjava/ch03tictactoe/TicTacToe.java" afterPath="$PROJECT_DIR$/src/main/java/com/packtpublishing/tddjava/ch03tictactoe/TicTacToe.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/packtpublishing/tddjava/ch03tictactoe/TicTacToeSpec.java" afterPath="$PROJECT_DIR$/src/test/java/com/packtpublishing/tddjava/ch03tictactoe/TicTacToeSpec.java" />
     </list>
@@ -34,21 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TicTacToe.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TicTacToe.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/packtpublishing/tddjava/ch03tictactoe/TicTacToe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="416">
+              <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TicTacToeSpec.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TicTacToeSpec.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/packtpublishing/tddjava/ch03tictactoe/TicTacToeSpec.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="61" column="26" lean-forward="false" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+            <state relative-caret-position="285">
+              <caret line="101" column="26" lean-forward="true" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#385#386#0" expanded="true" />
@@ -488,7 +476,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TicTacToeSpec.whenPlayAndWholeVerticalLineThenWinner">
+  <component name="RunManager" selected="JUnit.TicTacToeSpec.whenAllBoxesAreFilledThenDraw">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -509,6 +497,31 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="TicTacToeSpec.whenAllBoxesAreFilledThenDraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.packtpublishing.tddjava.ch03tictactoe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="tdd-java-ch03-tic-tac-toe_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.packtpublishing.tddjava.ch03tictactoe" />
+      <option name="MAIN_CLASS_NAME" value="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec" />
+      <option name="METHOD_NAME" value="whenAllBoxesAreFilledThenDraw" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="TicTacToeSpec.whenPlayAndWholeHorizontalLineThenWinner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -645,16 +658,18 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.TicTacToeSpec.whenPlayAndWholeVerticalLineThenWinner" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.TicTacToeSpec.whenPlayThenNoWinner" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.TicTacToeSpec.whenPlayAndWholeHorizontalLineThenWinner" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TicTacToeSpec.whenAllBoxesAreFilledThenDraw" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TicTacToeSpec.whenPlayAndWholeVerticalLineThenWinner" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TicTacToeSpec.whenPlayAndWholeHorizontalLineThenWinner" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TicTacToeSpec.whenPlayThenNoWinner" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TicTacToeSpec.whenAllBoxesAreFilledThenDraw" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TicTacToeSpec.whenPlayAndWholeVerticalLineThenWinner" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TicTacToeSpec.whenPlayAndWholeHorizontalLineThenWinner" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TicTacToeSpec.whenPlayThenNoWinner" />
       </list>
     </recent_temporary>
   </component>
@@ -675,6 +690,9 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="TicTacToeSpec_whenAllBoxesAreFilledThenDraw - 2017.12.30 at 22h 55m 55s.xml">
+      <configuration name="TicTacToeSpec.whenAllBoxesAreFilledThenDraw" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="TicTacToeSpec_whenPlayAndWholeHorizontalLineThenWinner - 2017.12.30 at 21h 49m 43s.xml">
       <configuration name="TicTacToeSpec.whenPlayAndWholeHorizontalLineThenWinner" configurationId="JUnit" />
     </history-entry>
@@ -705,6 +723,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -714,7 +733,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -757,18 +776,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packtpublishing/tddjava/ch03tictactoe/TicTacToe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/packtpublishing/tddjava/ch03tictactoe/TicTacToeSpec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="61" column="26" lean-forward="false" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+        <state relative-caret-position="285">
+          <caret line="101" column="26" lean-forward="true" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#385#386#0" expanded="true" />
@@ -776,6 +787,14 @@
             <element signature="e#983#984#0" expanded="true" />
             <element signature="e#1039#1040#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packtpublishing/tddjava/ch03tictactoe/TicTacToe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>

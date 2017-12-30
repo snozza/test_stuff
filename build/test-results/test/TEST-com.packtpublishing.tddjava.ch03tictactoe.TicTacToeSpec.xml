@@ -1,14 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-12-30T22:00:14" hostname="FT-MW4576" time="0.011">
+<testsuite name="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec" tests="11" skipped="0" failures="0" errors="0" timestamp="2017-12-30T22:57:31" hostname="FT-MW4576" time="0.017">
   <properties/>
-  <testcase name="whenYOutsideBoardThenRuntimeException" classname="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec" time="0.004"/>
-  <testcase name="whenPlayAndWholeHorizontalLineThenWinner" classname="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec" time="0.005"/>
+  <testcase name="whenYOutsideBoardThenRuntimeException" classname="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec" time="0.005"/>
+  <testcase name="whenPlayAndWholeHorizontalLineThenWinner" classname="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec" time="0.006"/>
   <testcase name="givenFirstTurnWhenNextPlayerThenX" classname="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec" time="0.0"/>
   <testcase name="givenLastPlayerWasXWhenNextPlayerThen0" classname="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec" time="0.0"/>
   <testcase name="whenXOutsideBoardThenRuntimeException" classname="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec" time="0.0"/>
   <testcase name="whenOccupiedThenRuntimeException" classname="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec" time="0.0"/>
-  <testcase name="whenPlayAndWholeVerticalLineThenWinner" classname="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec" time="0.0"/>
-  <testcase name="whenPlayThenNoWinner" classname="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="whenPlayAndTopBottomDiagonalLine" classname="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec" time="0.001"/>
+  <testcase name="whenPlayAndBottomTopDiagonalLine" classname="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec" time="0.0"/>
+  <testcase name="whenAllBoxesAreFilledThenDraw" classname="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec" time="0.003"/>
+  <testcase name="whenPlayAndWholeVerticalLineThenWinner" classname="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec" time="0.001"/>
+  <testcase name="whenPlayThenNoWinner" classname="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeSpec" time="0.0"/>
+  <system-out><![CDATA[X
+?
+X
+0
+?
+X
+0
+?
+X
+0
+?
+X
+?
+?
+X
+?
+X
+?
+X
+?
+X
+?
+?
+?
+?
+?
+X
+?
+X
+0
+?
+X
+0
+X
+?
+X
+0
+X
+0
+?
+X
+0
+X
+0
+?
+X
+0
+X
+0
+0
+X
+?
+X
+0
+X
+0
+0
+X
+X
+?
+X
+0
+X
+0
+0
+X
+X
+?
+X
+0
+X
+0
+0
+X
+X
+X
+0
+?
+0
+?
+0
+?
+0
+0
+?
+0
+0
+?
+?
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
